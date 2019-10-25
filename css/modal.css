@@ -1,0 +1,121 @@
+#exampleModal1{
+  background-image: url('C:/Users/likeadosaway/Desktop/figma/imgs/talants/bk.jpg');
+  border-radius: 2px;
+}
+
+ /* cm-card3 css */
+.modal_talants{
+  display: flex;
+}
+.img_talants{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.img__disc{
+  display: flex;
+  flex-direction: column;
+  color:#ecd89b;
+  font-size: 14px;
+  text-align: center;
+}
+.img__disc p{
+  margin-bottom: 8px;
+}
+.talants{
+  display: flex;
+  flex-direction: column;
+}
+.talants__item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+}
+.lvl{
+  margin-right: 20px;
+}
+.lvl__items{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lvl__items img{
+  position: absolute;
+}
+.lvl__items p{
+  text-shadow: 0px 0px 8px rgba(255, 90, 0, 1);
+  color:#e7d291;
+  position: relative;
+}
+.discription{
+  display: flex;
+  flex-direction: column;
+  margin-left: 7зчж
+}
+.disc_item{
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  width: 256px;
+  height: 24px;
+  color:#fff;
+  text-shadow: 3px 3px 4px rgba(0,0,0,0.99);
+  background-color: rgba(255, 255, 255, 0.10);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border-radius: 15px;
+  margin-bottom: 5px;
+}
+/* cm card 2 css */
+#exampleModalitmbd{
+  background: #21292d;
+}
+.itembuild h1{
+  font-size: 13px;
+  color:#fff;
+}
+.tal{
+  padding-right: 50px;
+}
+.skillflex{
+  display: flex;
+}
+/* cm card 3 css */
+#exampleModaltlns{
+  background-image: url("C:/Users/likeadosaway/Desktop/figma/imgs/talants/bk.jpg");
+}
+.itembuild h1{
+  font-size: 13px;
+  color:#fff;
+}
+.skillbuild{
+  display: flex;
+}
+.skill_builditem{
+   display: flex;
+}
+.skills{
+  display: flex;
+  flex-direction: column;
+}
+.skill{
+  color:#fff;
+  font-size: 12px;
+}
+.abilityname{
+  color:#2885ad;
+  font-size: 17px;
+
+}
+.colortext{
+  color:#5ca0bd;
+  font-size: 12px;
+}
+.skill_builditem img{
+  margin: 0 20px;
+  border: 2px solid #196789;
+}
+.skilldesk{
+  padding-right: 40px;
+}

@@ -1,0 +1,336 @@
+html{
+  display: flex;
+  flex-direction: column;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+      font-family: 'Comfortaa', cursive;
+}
+h1,h2,h3,h4,h5{
+  font-family: 'Comfortaa', cursive;
+  padding: 0;
+  margin: 0;
+}
+.scroll{
+ position: fixed;
+ background-color: rgba(200, 212, 212, 0.05);
+ height: 100vh;
+ width: 5%;
+ transition: 0.3s;
+}
+.scroll:hover{
+  background-color: rgba(200, 212, 212, 0.15);
+}
+.scroll span,
+.scroll span::before,
+.scroll span::after{
+  position: absolute;
+  top:80%;
+  width: 20px;
+  height: 2px;
+  background: #fff;
+  display: block;
+}
+.scroll span::before,
+.scroll span::after{
+  content:'';
+  display: block;
+  transition: 0.5s;
+}
+.scroll span::before{
+  transform:translateY(-7px);
+}
+.scroll span::after{
+  transform:translateY(5px);
+}
+.scroll-btn_active span::before{
+  transform: rotate(30deg);
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin: 0 auto;
+}
+.center-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* specification top */
+header{
+  background-image: url("../imgs/cm.png");
+  height: 100vh;
+  background-size: cover;
+}
+hr{
+  border: 1px #fff solid;
+  width: 5%;
+  /* margin: 0 auto; */
+
+}
+
+      .nav__header{
+        display: flex;
+        align-items: center;
+        padding:40px 0;
+        width: 100%;
+        opacity: 0;
+      }
+
+      .logo{
+        display: flex;
+        padding-left: 100px;
+        align-items: center;
+      }
+      .logo__img{
+        background: url('../imgs/icon50.png') no-repeat;
+        transition: 1s;
+        margin-left: 5px;
+        margin-top: 6px;
+        width: 60px;
+        height: 60px;
+        }
+      .logo h1{
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 29px;
+        -webkit-column-rule: #fff;
+        -moz-column-rule: #fff;
+        column-rule: #fff;
+        font-style: normal;
+        color:#fff;
+        padding: 0px 10px;
+        padding-top: 6px;
+      }
+      .nav{
+        display: flex;
+        margin-left:auto;
+        margin-right: 70px;
+        transition: 2s;
+      }
+      .nav li{
+        list-style: none;
+        margin-right: 40px;
+      }
+      .nav a{
+        color:#fff;
+        text-decoration: none;
+        font-size: 15px;
+        line-height: 29px;
+        font-weight: 400;
+        padding: 3px 5px;
+      }
+      .nav a:hover{
+        border-bottom:1px #fff solid;
+      }
+      .headhesive{
+        position: fixed;
+        transition: 1s;
+        opacity: 1;
+      }
+      .headhesive--stick{
+        padding: 10px 0;
+        background: rgba(48, 48, 48, 0.66);
+      }
+      .headhesive--stick h1{
+        color:#fff;
+      }
+      .headhesive--stick a{
+        color:#fff;
+      }
+      .headhesive--stick li{
+        padding-top: 14px;
+      }
+      .header__title {
+        margin-bottom:50px;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-size: 80px;
+        font-weight: 700;
+        color:#fff;
+        text-align: center;
+      }
+      .sm-title{
+        margin-bottom: 25px;
+        font-family: 'Kaushan Script', cursive;
+        font-size: 50px;
+        color:#fff;
+        text-align: center;
+      }
+      .button{
+        margin-top: 40px;
+        padding: 10px 20px;
+        text-decoration: none;
+        color:#fff;
+        border: 2px #fff solid;
+        transition: 0.3s;
+        }
+        .button:hover{
+          border:2px #fff dotted;
+          color:#e6fffa;
+        }
+      .social-media{
+        display: flex;
+        padding-right: 20px;
+        justify-content: flex-end;
+      }
+      .icons{
+        display: flex;
+        padding: 7px 0px 7px 20px;
+        align-items: flex-end;
+      }
+      .icons p{
+        color:#fff;
+        margin-right: 10px;
+      }
+      .social-media a{
+        font-size: 17px;
+        color:#fff;
+        margin-right: 10px;
+      }
+      .scroll-down{
+        display: flex;
+        padding-top: 3%;
+        padding-right: 33.3%;
+      }
+      .scroll-down a{
+          font-size: 20px;
+      }
+
+.maincm{
+  transition: 1s;
+  height: 100vh;
+  background-image: url("../imgs/bg.jpg");
+  background-size: cover;
+  padding-bottom: 40px;
+  display: none;
+}
+
+    .main-container{
+      padding-top: 50px;
+      display: flex;
+      flex-direction: column;
+
+    }
+    .box-modalcm{
+
+    }
+    .info{
+      margin-left: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items:center;
+    }
+    .info h1{
+      font-size: 30px;
+      margin-bottom: 15px;
+      font-family: 'Kaushan Script', cursive;
+    }
+    .info p{
+      font-size: 10px;
+      margin-top: 15px;
+    }
+    .sm__title{
+      color:#000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Kaushan Script', cursive;
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+    .maincm hr{
+      border: 1px #fff solid;
+      width: 5%;
+    }
+    .info__text p{
+      font-size:15px;
+      font-family: 'Roboto Condensed', sans-serif;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+    .card{
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      width: 230px;
+      background-color: #51518d;
+      transition: 1s;
+      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+    .cards{
+      display: flex;
+      justify-content: space-between;
+    }
+    .card-header{
+      display: flex;
+      justify-content: center;
+      padding: 20px 20px;
+      font-size: 20px;
+      font-family: 'Montserrat',sans-serif;
+      color:#fff;
+      text-transform: uppercase;
+    }
+    .card-body{
+      overflow: hidden;
+      height: 310px;
+    }
+    .card-body img{
+      transition: 0.5s;
+    }
+    .card-body img:hover{
+    }
+/* Witch Doctor AREA */
+.mainwd{
+    height: 100vh;
+    background-image: url("../imgs/wdbg1.jpg");
+    background-size: cover;
+}
+    .wd-title{
+      padding-top: 120px;
+    }
+    .wd__color{
+      color:#eee5ec;
+    }
+    .wd{
+      display: none;
+      height: 100vh;
+      background-image: url("../imgs/bgwd.jpg");
+      background-size: cover;
+        padding-bottom: 40px;
+    }
+.mainwr{
+  height: 100vh;
+  background-image: url("../imgs/wrbg.jpg");
+  background-size: cover;
+}
+    .wr{
+      display: none;
+      height: 100vh;
+      background-image: url("../imgs/bgwr.jpg");
+      background-size: cover;
+        padding-bottom: 40px;
+    }
+    .wr__color{
+      color:#ceffca;
+    }
+footer{
+  display: flex;
+  padding-bottom: 50px;
+  background-color: #fff;
+}
